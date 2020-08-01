@@ -2,6 +2,8 @@
 def print_leg_probabilities(camels):
     if sum(camels.values()) != 100:
         print("Error! Probabilities don't add up to 100%!")
+        quit()
     else:
         for element in camels:
             print(f"{element}: {camels[element]}%")
+
