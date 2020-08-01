@@ -1,11 +1,10 @@
 from functions import *
 
-camels = {
-    "orange": 20,
-    "blue": 20,
-    "yellow": 20,
-    "green": 20,
-    "white": 20,
-}
+camels = initialize_camels()
+game_board = initialize_gameboard()
 
-print_leg_probabilities(camels)
+turn = prompt_turn()
+print(turn)
+
+# print_leg_probabilities(camels)
+
